@@ -1,5 +1,5 @@
 require 'twitter'
-class twitterAPI
+class API
     def initialize
       @client = Twitter::REST::Client.new do |config|
         config.consumer_key = 'API-Key'

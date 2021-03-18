@@ -1,3 +1,6 @@
+# rubocop:disable Style/For
+# rubocop:disable Style/InfiniteLoop
+
 require 'yaml'
 require 'twitter'
 require_relative '../lib/api.rb'
@@ -13,3 +16,6 @@ while true
 
     
 end
+
+# rubocop:enable Style/For
+# rubocop:enable Style/InfiniteLoop
