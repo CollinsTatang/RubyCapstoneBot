@@ -11,5 +11,5 @@ class API
       config.access_token = 'Access Token'
       config.access_token_secret = 'Access Token Secret'
     end
-end
+  end
 end
